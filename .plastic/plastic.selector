@@ -1,0 +1,4 @@
+repository "KidFriendlyMathGame@CEN4010@cloud"
+  path "/"
+    br "/main"
+    co "/main"
