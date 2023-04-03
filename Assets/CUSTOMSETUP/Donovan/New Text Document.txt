@@ -1,0 +1,7 @@
+'Math' prefixed classes will be interfaces, equation is a child of relation
+
+each interface will be complemented by an implemented class
+
+MathQuiz is a class that contains a list of all 'MathRelation's
+
+a helper class will be responsible for rendering the MathRelations and computing if they were answered correctly   
