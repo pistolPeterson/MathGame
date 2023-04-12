@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/CUSTOMSETUP/Donovan/scenes/test.unity
+    guid: 0143cd53faf49f74bafae5813d94f1ef
   m_configObjects: {}

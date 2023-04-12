@@ -6,7 +6,7 @@ public abstract class MathRelation : MonoBehaviour
 {
     private int term1, term2;
 
-    public MathRelation(term1,term2)
+    public MathRelation(int term1, int term2)
     {
         this.term1 = term1;
 
@@ -15,5 +15,5 @@ public abstract class MathRelation : MonoBehaviour
     }
 
 
-    public abstract proofRelation();
+    public abstract void proofRelation();
 }
