@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CUSTOMSETUP/Donovan/scenes/test.unity
-    guid: 0143cd53faf49f74bafae5813d94f1ef
+    path: Assets/CUSTOMSETUP/Bryan/Scenes/Menu.unity
+    guid: a4930391dea11a140944f79036d3bf0a
+  - enabled: 1
+    path: Assets/CUSTOMSETUP/Bryan/Scenes/Difficulty/Easy.unity
+    guid: 5d53bcb02eff9254d8bedba2ecf2bec7
   m_configObjects: {}
