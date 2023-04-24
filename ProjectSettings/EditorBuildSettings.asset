@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CUSTOMSETUP/Daniel/Scenes/BaseGamePlay.unity
-    guid: 7549e89c197cdd7428e9dbea47ba9f19
+    path: Assets/CUSTOMSETUP/Bryan/Scenes/Menu.unity
+    guid: a4930391dea11a140944f79036d3bf0a
+  - enabled: 1
+    path: Assets/CUSTOMSETUP/Bryan/Scenes/Difficulty/Easy.unity
+    guid: 5d53bcb02eff9254d8bedba2ecf2bec7
+  - enabled: 1
+    path: Assets/CUSTOMSETUP/Bryan/Scenes/Difficulty/Medium.unity
+    guid: 311239f0e6627194aaf3c4ecb4003353
   m_configObjects: {}
