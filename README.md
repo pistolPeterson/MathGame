@@ -32,3 +32,5 @@ Technologies Used
 Credits
 * Sounds obtained from freesound.org
 * [Sweet Land GUI](https://assetstore.unity.com/packages/2d/gui/sweet-land-gui-208285)
+* [Hungry Bat - Match 3 UI](https://assetstore.unity.com/packages/2d/gui/hungry-bat-match-3-ui-free-229197)
+* [Simple Button Set 02](https://assetstore.unity.com/packages/2d/gui/icons/simple-button-set-02-184903)
