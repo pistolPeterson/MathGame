@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4934c0ba3155b4646bd7fa71b769a675
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Andika
+  fontNames:
+  - Andika
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c06874edb95ba1d4a8200f24b0d35769, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
