@@ -3,9 +3,13 @@
 Math Game Project
 
 <p align="center">
-  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image.png" width="250" hspace="20"/>
-  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image4.png" width="250" hspace="20"/> 
-  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image3.png" width="250" hspace="20"/>
+  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image4.png" width="400" hspace="20"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image4.png" width="250" hspace="20"/>
+  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image3.png" width="250" hspace="20"/> 
+  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image2.png" width="250" hspace="20"/>
 </p>
 
 Math Master is a fun and challenging math game designed for kids between 4th and 8th grade level who want to improve their math skills while having fun. The game is an endless survivor, where the player must go through a series of math questions that become increasingly difficult with each level. The player starts with three lives and gains an extra life for every level completed, up to a maximum of six lives.
