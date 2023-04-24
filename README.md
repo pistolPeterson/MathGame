@@ -3,7 +3,7 @@
 Math Game Project
 
 <p align="center">
-  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image4.png" width="400" hspace="20"/>
+  <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image.png" width="600" hspace="20"/>
 </p>
 
 <p align="center">
