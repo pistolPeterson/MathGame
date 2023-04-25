@@ -26,6 +26,7 @@ In Math Master, the goal is to get the highest score possible by answering as ma
 
 With Math Master, players can improve their math skills in a fun and engaging way. The increasing difficulty and amount of questions per level provide a challenge for players of all skill levels, allowing them to improve their math skills over time. Whether you're looking to improve your math skills or just have some fun, Math Master is the perfect game for you.
 
+<br>
 **Features**
 *  Comprehensive math challenges including addition, subtraction, multiplication, and division
 * Endless survivor game with increasing difficulty and amount of questions per level
@@ -35,12 +36,14 @@ With Math Master, players can improve their math skills in a fun and engaging wa
 * Suitable for players of different skill levels
 * Fun and engaging way to improve your math skills
 
+<br>
 **Technologies Used**
 * Unity 2019
 * GitHub
 * C#
 * Visual Studio
 
+<br>
 **Credits**
 * Sounds obtained from freesound.org
 * [Sweet Land GUI](https://assetstore.unity.com/packages/2d/gui/sweet-land-gui-208285)
