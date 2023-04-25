@@ -1,4 +1,4 @@
-# MathGame
+# <p align="center"> Math Game </p>
 
 <br>
 <p align="center">
