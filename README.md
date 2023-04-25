@@ -25,8 +25,8 @@ Math Master is an entertaining and stimulating math game designed for kids betwe
 In Math Master, the goal is to get the highest score possible by answering as many questions as you can correctly. The game includes addition, subtraction, multiplication, and division, providing a comprehensive set of mathematical challenges to keep players engaged and entertained. The game's unique vaporwave-styled design adds a nostalgic touch, taking players back to the old 2000s-style kid games.
 
 With Math Master, players can improve their math skills in a fun and engaging way. The increasing difficulty and amount of questions per level provide a challenge for players of all skill levels, allowing them to improve their math skills over time. Whether you're looking to improve your math skills or just have some fun, Math Master is the perfect game for you.
-
 <br>
+
 **Features**
 *  Comprehensive math challenges including addition, subtraction, multiplication, and division
 * Endless survivor game with increasing difficulty and amount of questions per level
@@ -35,15 +35,15 @@ With Math Master, players can improve their math skills in a fun and engaging wa
 * Unique vaporwave-styled design for a nostalgic touch
 * Suitable for players of different skill levels
 * Fun and engaging way to improve your math skills
-
 <br>
+
 **Technologies Used**
 * Unity 2019
 * GitHub
 * C#
 * Visual Studio
-
 <br>
+
 **Credits**
 * Sounds obtained from freesound.org
 * [Sweet Land GUI](https://assetstore.unity.com/packages/2d/gui/sweet-land-gui-208285)
