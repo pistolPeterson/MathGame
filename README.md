@@ -1,7 +1,5 @@
 # MathGame
 
-Math Game Project
-
 <br>
 <p align="center">
   <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image.png" width="600" hspace="20"/>
