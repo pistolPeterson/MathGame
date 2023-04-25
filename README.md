@@ -2,23 +2,27 @@
 
 Math Game Project
 
+<br>
 <p align="center">
   <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image.png" width="600" hspace="20"/>
 </p>
+<br>
 
 **Description**
 
 Math Master is a fun and challenging math game for kids in grades 4-8. Improve your skills with an endless survivor game, increasing difficulty, and a unique vaporwave style. The goal is to achieve the highest score possible by answering as many questions as you can correctly. Become a Math Master today!
 
+<br>
 <p align="center">
   <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image4.png" width="250" hspace="20"/>
   <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image3.png" width="250" hspace="20"/> 
   <img src="https://github.com/Hash-Studios-LLC/MathGame/blob/master/GitHub/images/image2.png" width="250" hspace="20"/>
 </p>
+<br>
 
 **Information**
 
-Math Master is a fun and challenging math game designed for kids between 4th and 8th grade level who want to improve their math skills while having fun. The game is an endless survivor, where the player must go through a series of math questions that become increasingly difficult with each level. The player starts with three lives and gains an extra life for every level completed, up to a maximum of six lives.
+Math Master is an entertaining and stimulating math game designed for kids between 4th and 8th grade level who want to improve their math skills while having fun. The game is an endless survivor, where the player must go through a series of math questions that become increasingly difficult with each level. The player starts with three lives and gains an extra life for every level completed, up to a maximum of six lives.
 
 In Math Master, the goal is to get the highest score possible by answering as many questions as you can correctly. The game includes addition, subtraction, multiplication, and division, providing a comprehensive set of mathematical challenges to keep players engaged and entertained. The game's unique vaporwave-styled design adds a nostalgic touch, taking players back to the old 2000s-style kid games.
 
