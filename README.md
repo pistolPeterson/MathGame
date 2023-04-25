@@ -25,7 +25,7 @@ Math Master is an entertaining and stimulating math game designed for kids betwe
 In Math Master, the goal is to get the highest score possible by answering as many questions as you can correctly. The game includes addition, subtraction, multiplication, and division, providing a comprehensive set of mathematical challenges to keep players engaged and entertained. The game's unique vaporwave-styled design adds a nostalgic touch, taking players back to the old 2000s-style kid games.
 
 With Math Master, players can improve their math skills in a fun and engaging way. The increasing difficulty and amount of questions per level provide a challenge for players of all skill levels, allowing them to improve their math skills over time. Whether you're looking to improve your math skills or just have some fun, Math Master is the perfect game for you.
-<br>
+<br><br>
 
 **Features**
 *  Comprehensive math challenges including addition, subtraction, multiplication, and division
