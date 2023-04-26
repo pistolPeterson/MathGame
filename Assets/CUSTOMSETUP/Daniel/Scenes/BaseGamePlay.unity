@@ -7298,6 +7298,7 @@ GameObject:
   - component: {fileID: 1299164395}
   - component: {fileID: 1299164394}
   - component: {fileID: 1299164398}
+  - component: {fileID: 1299164399}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7437,11 +7438,15 @@ MonoBehaviour:
   level_text: {fileID: 1434594496}
   checkMarkAlpha: {fileID: 222655983}
   checkMarkButton: {fileID: 222655985}
-  audio_gameMusic: {fileID: 1175819080}
-  audio_clickSound: {fileID: 2034403588}
-  audio_correctAnswer: {fileID: 1330148440}
-  audio_incorrectAnswer: {fileID: 1632339083}
-  audio_gameOver: {fileID: 389254070}
+  OnCorrectAnswer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIncorrectAnswer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameOver:
+    m_PersistentCalls:
+      m_Calls: []
   lives:
   - {fileID: 1004419394}
   - {fileID: 41327815}
@@ -7449,10 +7454,26 @@ MonoBehaviour:
   gameOverScreen: {fileID: 1880178614}
   livesParent: {fileID: 379580398}
   hiddenLife: {fileID: 63504900}
-  slider_audioEffects: {fileID: 556034349}
-  mixer_overall: {fileID: 24100000, guid: 0c26f0282d0846f41ac4d480a3546b67, type: 2}
-  slider_backgroundMusic: {fileID: 1673682999}
-  toggle_fullScreen: {fileID: 1968508079}
+--- !u!114 &1299164399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299164393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3517f0cb62347d3439964ae1b96a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_gameMusic: {fileID: 0}
+  audio_clickSound: {fileID: 0}
+  audio_correctAnswer: {fileID: 0}
+  audio_incorrectAnswer: {fileID: 0}
+  audio_gameOver: {fileID: 0}
+  sfxSlider: {fileID: 0}
+  mainMixer: {fileID: 0}
+  musicSlider: {fileID: 0}
 --- !u!1 &1311277901
 GameObject:
   m_ObjectHideFlags: 0

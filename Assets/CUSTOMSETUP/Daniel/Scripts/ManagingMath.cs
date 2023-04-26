@@ -5,6 +5,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.Events;
 
 public class ManagingMath : MonoBehaviour
 {
@@ -121,14 +122,14 @@ public class ManagingMath : MonoBehaviour
     public Button checkMarkButton;
 
     [Space]
-    [Header("Audio")]
+    [Header("Events")]
     [Space]
-
-    public AudioSource audio_gameMusic;
-    public AudioSource audio_clickSound;
-    public AudioSource audio_correctAnswer;
-    public AudioSource audio_incorrectAnswer;
-    public AudioSource audio_gameOver;
+    
+    public UnityEvent OnCorrectAnswer;
+    public UnityEvent OnIncorrectAnswer;
+    public UnityEvent OnGameOver;
+    
+    
 
     [Space]
     [Header("Lives")]
@@ -139,20 +140,16 @@ public class ManagingMath : MonoBehaviour
     public Transform livesParent;
     public Transform hiddenLife;
 
-    [Space]
-    [Header("Settings")]
-    [Space]
-
-    public Slider slider_audioEffects;
-    public AudioMixer mixer_overall;
-    public Slider slider_backgroundMusic;
-    public Toggle toggle_fullScreen;
 
     // Start is called before the first frame update
     void Start()
     {
+       SetupGame();
+    }
 
-        audio_gameMusic.Play();
+    private void SetupGame()
+    {
+        
 
         inputField.gameObject.SetActive(false);
 
@@ -208,7 +205,7 @@ public class ManagingMath : MonoBehaviour
         {
             Destroy(lives[lives.Count - 1].gameObject);
             lives.RemoveAt(lives.Count - 1);
-            audio_gameOver.Play();
+            OnGameOver.Invoke();
             pauseGame();
             gameOverScreen.gameObject.SetActive(true);
         }
@@ -250,7 +247,8 @@ public class ManagingMath : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             // Code to execute when the player presses the Space key
             if (inputField.text.Length > 0)
@@ -260,28 +258,7 @@ public class ManagingMath : MonoBehaviour
         }
     }
 
-    public void openSettings()
-    {
-        float vol = -1;
-        mixer_overall.GetFloat("Volume_SFX", out vol);
-        Debug.Log(vol);
-        slider_audioEffects.value = (vol + 80f) / 80f;
-
-        mixer_overall.GetFloat("Volume_BackgroundMusic", out vol);
-        slider_backgroundMusic.value = (vol + 80f) / 80f;
-    }
-
-    public void updateAudioSettings()
-    {
-        mixer_overall.SetFloat("Volume_SFX", Mathf.Log10(slider_audioEffects.value) * 20);
-        //mixer_overall.SetFloat("Volume_SFX", slider_audioEffects.value);
-        mixer_overall.SetFloat("Volume_BackgroundMusic", Mathf.Log10(slider_backgroundMusic.value) * 20);
-    }
-
-    public void updateFullScreen()
-    {
-        Screen.fullScreen = toggle_fullScreen.isOn;
-    }
+   
 
     public void quitGame()
     {
@@ -294,12 +271,12 @@ public class ManagingMath : MonoBehaviour
         {
             if (inputField.text.Equals(term_2_answer.ToString()) && isTransitioning == false)
             {
-                audio_correctAnswer.Play();
+                OnCorrectAnswer.Invoke();
                 Debug.Log("CONGRATS");
             }
             else
             {
-                audio_incorrectAnswer.Play();
+                OnIncorrectAnswer.Invoke();
                 Debug.Log("INCORRECT");
                 removeLife();
             }
@@ -311,13 +288,13 @@ public class ManagingMath : MonoBehaviour
             Debug.Log(level + " | " + currentCount + " | " + term_2_answer.ToString());
             if (inputField.text.Equals(term_2_answer.ToString()) && isTransitioning == false)
             {
-                audio_correctAnswer.Play();
+                OnCorrectAnswer.Invoke();
                 Debug.Log("CONGRATS");
                 nextQuestion(movementTime);
             }
             else
             {
-                audio_incorrectAnswer.Play();
+                OnIncorrectAnswer.Invoke();
                 Debug.Log("INCORRECT");
                 removeLife();
                 nextQuestion(movementTime);
