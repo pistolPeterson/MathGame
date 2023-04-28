@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -16,17 +17,19 @@ using UnityEngine.UI;
  */
 public class AudioManager : MonoBehaviour
 {
+[SerializeField] private ManagingMath managingMath;
     
     [Space]
     [Header("Audio")]
     [Space]
 
-    public AudioSource audio_gameMusic;
-    public AudioSource audio_clickSound;
-    public AudioSource audio_correctAnswer;
-    public AudioSource audio_incorrectAnswer;
-    public AudioSource audio_gameOver;
-    
+    public AudioSource uiAudio;
+    public AudioClip audio_clickSound;
+    public AudioClip audio_correctAnswer;
+    public AudioClip audio_incorrectAnswer;
+    public AudioClip audio_gameOver;
+    public AudioClip uiEntryClip;
+    public AudioClip uiExitClip;
     
     [Space]
     [Header("Audio Settings")]
@@ -34,8 +37,39 @@ public class AudioManager : MonoBehaviour
     public Slider sfxSlider;
     public AudioMixer mainMixer;
     public Slider musicSlider;
+
+    private void Start()
+    {
+        managingMath.OnCorrectAnswer.AddListener(PlayCorrectAnswerSfx);
+        managingMath.OnIncorrectAnswer.AddListener(PlayInCorrectAnswerSfx);
+        managingMath.OnGameOver.AddListener(PlayGameOverSfx);
+    }
+
+    private void PlayGameOverSfx()
+    {
+        uiAudio.PlayOneShot(audio_gameOver);
+    }
+
+    private void PlayCorrectAnswerSfx()
+    {
+        uiAudio.PlayOneShot(audio_correctAnswer);
+    }
     
+    private void PlayInCorrectAnswerSfx()
+    {
+        uiAudio.PlayOneShot(audio_incorrectAnswer);
+    }
+
+    public void PlayEntryUI()
+    {
+        uiAudio.PlayOneShot(uiEntryClip);
+
+    }
     
+    public void PlayExitUI()
+    {
+        uiAudio.PlayOneShot(uiExitClip);
+    }
     //AUDIO SETTINGS
     public void openSettings()
     {
